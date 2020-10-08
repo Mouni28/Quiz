@@ -1,0 +1,164 @@
+/*HOME*/
+
+body {
+    background-color: black;
+}
+
+li {
+    align-self: right;
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li>a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Charm';
+    font-size: 26px;
+}
+
+li>button {
+    border-radius: 8px;
+    padding: 5px;
+    /*padding-bottom: 20pt;*/
+    background-color: black;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Charm';
+    font-size: 26px;
+    width: 24%;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    color: aqua;
+}
+
+.home-content {
+    font-family: 'Charm';
+    font-size: 26px;
+}
+
+.item4>p {
+    font-style: 'Charm';
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.item3>p {
+    font-style: 'Charm';
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.item2>img {
+    height: 650px;
+    width: 600px;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: main1;
+}
+
+.item3 {
+    grid-area: main2;
+}
+
+.item4 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'main1 header header ' 'main1 main2 main2' 'main1 footer footer';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    color: white;
+    text-align: justify;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+
+
+/*CONTACT */
+
+h2 {
+    font-family: 'Charm';
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: #EEE148;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 15px;
+    padding: 0;
+    font-family: 'Charm';
+    font-size: 20pt;
+}
+
+fieldset>input {
+    width: 70%;
+    font-family: 'Charm';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+fieldset>textarea {
+    height: 100px;
+    resize: none;
+    width: 70%;
+    font-family: 'Charm';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    font-family: 'Charm';
+    font-weight: lighter;
+    font-size: 24px;
+    width: 2%;
+    transform: scale(1.5);
+}
+
+fieldset>button[type="submit"] {
+    border: 1px solid #392c97;
+    border-radius: 5px;
+    margin: 0 2px 0 2px;
+    background: black;
+    color: rgb(240, 236, 30);
+    padding: 10px;
+    width: 70%;
+    font-family: 'Charm';
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+fieldset>button[type="submit"]:hover {
+    color: aqua;
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px 3px;
+}
