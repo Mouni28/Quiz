@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#container {
+    border: 5px solid yellow;
+    border-radius: 10px;
+    width: 70%;
+    margin: 100px 150px 40px 150px;
+    padding: 10px 25px 40px 10px;
+    background-image: url("../Images/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 25px 50px 50px 75px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: "Charm";
+    font-size: 18px;
+}
+
+#quizque {
+    text-indent: 10px;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    padding: 5px 0px;
+}
+
+.bottom-buttons {
+    padding: 30px 15px;
+}
+
+.button {
+    border: 2px solid #392c97;
+    border-radius: 5px;
+    width: 60px;
+    padding: 100px 100px -100px 10px;
+    margin: 0 2px 0 2px;
+    position: relative;
+    float: right;
+    background-color: black;
+    color: yellow;
+    margin: 0 2px 0 2px;
+    font-family: 'Charm';
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.button:hover {
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px 3px aqua;
+}
+
+.button-left {
+    float: left;
+    width: fit-content;
+}
+
+.button a {
+    text-decoration: none;
+    color: yellow;
+}
+
+#prev {
+    display: none;
+    background-color: black;
+}
+
+#start {
+    display: none;
+    width: 90px;
+    background-color: black;
+}
