@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <script src="../JavaScript/sample.js"></script>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/quiz.html">Quiz</a></li>
+                    <li><a href="../HTML/blog.html">Blog</a></li>
+                    <li><a href="../HTML/contact.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="item2">
+            <img src="../Images/logo.jpeg">
+        </div>
+        <div class="item3">
+            <h2>Contact Us</h2>
+
+            <form method="POST" action="/" onsubmit="check_subscription(event)" id="form_id">
+                <fieldset><input placeholder="Name" type="text" id="name" tabindex="1" required autofocus></fieldset>
+                <fieldset><input placeholder="Email Address" type="email" id="email" tabindex="2" required \A[\w!#$%& '*+/=?`{|}~^-]+(?:\.[\w!#$%&'*+/=?`{|}~^-]+)*@↵ (?:[A-Z0-9-]+\.)+[A-Z]{2,6}\Z></fieldset>
+                <fieldset><textarea placeholder="Type your message here...." tabindex="5" required></textarea></fieldset>
+                <fieldset><input type="checkbox" id="myCheck" checked="checked" tabindex="1"> Subscribe Newsletter</fieldset>
+                <fieldset><button name="submit" type="submit" id="contact-submit">Submit</button></fieldset>
+            </form>
+
+        </div>
+        <div class="item4 home-content">
+            <p>&copy; 2019 QuizBuzz.com</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
